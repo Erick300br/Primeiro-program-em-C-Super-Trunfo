@@ -4,7 +4,7 @@ int main(){
 
     //carta 1
     char estado01[20];
-    //escolher uma letra para o estado
+    //Nome do estado
     char codigo01[5];
     //exemplo de código: A01
     char cidade01[20];
@@ -28,10 +28,10 @@ int main(){
     printf("Digite o nome do estado (sem espaço ou acentuação): ");
     scanf("%s", &estado01);
 
-    printf("Digite o código da carta, (exemplo A01): ");
+    printf("Digite o código da carta, (exemplo A01, máximo de 5 caracteres): ");
     scanf("%s", &codigo01);
 
-    printf("Digite o nome da cidade: ");
+    printf("Digite o nome da cidade (sem espaço ou acentuação): ");
     scanf("%s", &cidade01);
 
     printf("Digite o número de cidadãos: ");
@@ -62,13 +62,13 @@ int main(){
 
     printf("Vamos para a segunda carta!\n");
 
-    printf("Digite o nome do estado (sem espaço): ");
+    printf("Digite o nome do estado (sem espaço ou acentuação): ");
     scanf("%s", &estado02);
 
-    printf("Digite o código da carta, (exemplo A01): ");
+    printf("Digite o código da carta, (exemplo A01, máximo de 5 caracteres): ");
     scanf("%s", &codigo02);
 
-    printf("Digite o nome da cidade: ");
+    printf("Digite o nome da cidade (sem espaço ou acentuação): ");
     scanf("%s", &cidade02);
 
     printf("Digite o número de cidadãos: ");
@@ -92,6 +92,6 @@ int main(){
     printf("Area km2: %.2f\n", areakm02);
     printf("PIB: %.2f\n", pib02);
     printf("Pontos Turísticos: %d\n", turistic02);
-    printf("FIM");
+    printf("FIM\n");
     return 0;
 }
